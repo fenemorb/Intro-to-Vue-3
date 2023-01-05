@@ -5,8 +5,15 @@ body {
   color: #282828;
 }
 
+.button-cont {
+  display: flex;
+  /* width: auto; */
+  justify-content: start;
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
 .button {
-  margin: 30px;
   background-color: #39495c;
   border-radius: 5px;
   font-size: 18px;
@@ -39,7 +46,6 @@ body {
   border: 2px solid #d8d8d8;
   border-radius: 50%;
 }
-
 
 .disabledButton {
   background-color: #d8d8d8;
